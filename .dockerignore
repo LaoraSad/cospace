@@ -1,0 +1,35 @@
+# Dependencias locales y compilación
+node_modules
+.next
+out
+build
+dist
+
+# Control de versiones
+.git
+.gitignore
+.github
+
+# Variables de entorno y secretos
+.env
+.env*.local
+.env.development
+.env.test
+
+# Logs y depuración
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Archivos de sistema y editores
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Documentación o archivos innecesarios en la imagen
+README.md
+Dockerfile*
+docker-compose*.yml
+.dockerignore
